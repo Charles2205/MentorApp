@@ -20,7 +20,7 @@ const dropdown =(req,res)=>{
  res.send('/pages/dropdown')   
 }
 const contact =(req,res)=>{
-  res.send('/pages/home')  
+  res.send('/pages/contact')  
 }
 const getStarted =(req,res)=>{
    res.send('/pages/getstarted') 
