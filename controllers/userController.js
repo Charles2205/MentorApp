@@ -16,12 +16,20 @@ const events =(req,res)=>{
 const pricing =(req,res)=>{
  res.send('/pages/pricing')   
 }
-const dropdown =(req,res)=>{
- res.send('/pages/dropdown')   
-}
 const contact =(req,res)=>{
   res.send('/pages/contact')  
 }
-const getStarted =(req,res)=>{
-   res.send('/pages/getstarted') 
+// const getStarted =(req,res)=>{
+//    res.send('/pages/courses') 
+// }
+
+module.exports={
+    home,
+    about,
+    contact,
+  
+    pricing,
+    events,
+    courses,
+    trainers
 }
