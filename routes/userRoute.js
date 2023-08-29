@@ -9,6 +9,7 @@ app.get('/events',events)
 app.get('/trainers',trainers)
 app.get('/getstarted',courses)
 app.get('/pricing',pricing)
+app.get('/courses', courses)
 
 
 module.exports=app
