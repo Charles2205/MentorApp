@@ -10,4 +10,5 @@ app.get('/trainers',trainers)
 app.get('/getstarted',courses)
 app.get('/pricing',pricing)
 
+
 module.exports=app
