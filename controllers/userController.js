@@ -1,26 +1,26 @@
 const home =(req,res)=>{
-res.send('/pages/home')
+res.render('home')
 }
 const about =(req,res)=>{
- res.send('/pages/about')   
+ res.render('about')   
 }
 const courses =(req,res)=>{
-res.send('/pages/courses')    
+res.render('courses')    
 }
 const trainers =(req,res)=>{
- res.send('/pages/trainers')   
+ res.render('trainers')   
 }
 const events =(req,res)=>{
-  res.send('/pages/events')  
+  res.render('events')  
 }
 const pricing =(req,res)=>{
- res.send('/pages/pricing')   
+ res.render('pricing')   
 }
 const contact =(req,res)=>{
-  res.send('/pages/contact')  
+  res.render('contact')  
 }
 // const getStarted =(req,res)=>{
-//    res.send('/pages/courses') 
+//    res.render('/pages/courses') 
 // }
 
 module.exports={
@@ -31,5 +31,5 @@ module.exports={
     pricing,
     events,
     courses,
-    trainers
+    trainers,
 }

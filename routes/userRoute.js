@@ -1,6 +1,6 @@
-const {Router} = require('express')
+const express = require('express')
 const {home,about,contact,courses,trainers,pricing,events} = require('../controllers/userController')
-const app = Router()
+const app = express.Router()
 
 app.get('/',home)
 app.get('/about',about)
